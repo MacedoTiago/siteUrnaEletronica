@@ -1,3 +1,7 @@
+/*no ETAPAS ARRAW
+    ESTA TUDO NO 
+    PLURAL [ NUMEROS, ETAPAS]
+    */
 
 let seuVotoPara = document.querySelector('.d_cima_esquerda_1 span');
 let cargo = document.querySelector('.d_cima_esquerda_2 span'); //COLOCAR O PONTO PARA TRAZER UMA CLASS
@@ -75,7 +79,7 @@ function clicou(n){
         numeroPisca.innerHTML = n;
         preencheNumero = `${preencheNumero}${n}`;
         
-        //numeroPisca.classList.remove('pisca'); //REMOVE A ANIMÇAÕ PISCA DO NUMERO ATUAL
+        numeroPisca.classList.remove('pisca'); //REMOVE A ANIMÇAÕ PISCA DO NUMERO ATUAL
         if(numeroPisca.nextElementSibling !== null){
             numeroPisca.nextElementSibling.classList.add('pisca') //PASSA A ANIMAÇÃO PISCA PARA O PROXIMO NUMERO A SER DIGITADO
         } else{
