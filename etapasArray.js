@@ -7,7 +7,7 @@ let etapas = [
             nome: 'Fulano de Tal',
             partido: 'AAA',
             fotos:[
-                {url:'/IMG/1cd6c8a6d36a13ba697fbc23df701150.jpg', legenda:'Vereador',}
+                {url:'1cd6c8a6d36a13ba697fbc23df701150.jpg', legenda:'Vereador',}
             ]
         },
         {
@@ -15,7 +15,7 @@ let etapas = [
             nome: 'Fulano de Tal',
             partido: 'AAA',
             fotos:[
-                {url:'/IMG/download (1).jpg', legenda:'Vereador',}
+                {url:'download (1).jpg', legenda:'Vereador',}
             ]
         },
             
@@ -25,23 +25,23 @@ let etapas = [
         titulo: 'PREFEITO',
         numeros: 2,
         candidatos: [{
-            numero:'44',
+            numero:'11',
             nome: 'Zoinho da Vila',
             partido: 'BBB',
             vice:'Chic Chic',
             fotos:[
-                {url:'/IMG/download.png', legenda:'Prefeito',small: true},
-                {url:'/IMG/download.jpg', legenda:'Vice-Prefeito',small: true},
+                {url:'download.png', legenda:'Prefeito',small: true},
+                {url:'download.jpg', legenda:'Vice-Prefeito',small: true},
             ]
         },
         {
-            numero:'99',
+            numero:'22',
             nome: 'Boquinha',
             partido: 'QQQ',
             vice:'Mistureba',
             fotos:[
-                {url:'/IMG/download (1).jpg', legenda:'Prefeito', small: true},
-                {url:'/IMG/download.jpg', legenda:'Vice-Prefeito'},
+                {url:'download (1).jpg', legenda:'Prefeito', small: true},
+                {url:'download.jpg', legenda:'Vice-Prefeito'},
             ]
         },
             
