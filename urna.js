@@ -62,7 +62,10 @@ function comecarEtapa(){
 
         let fotosHtml = '';
          for(let i in candidatoAtual.fotos){
-            fotosHtml += `<div class="d_cima_direita"><img src="${candidatoAtual.fotos[i].url}" alt="${candidatoAtual.fotos[i].legenda}"><p>${candidatoAtual.fotos[i].legenda}</p class="stilo--foto"></div>`;
+           // fotosHtml += `<div class="d_cima_direita"><img src="${candidatoAtual.fotos[i].url}" alt="${candidatoAtual.fotos[i].legenda}"><p>${candidatoAtual.fotos[i].legenda}</p class="stilo--foto"></div>`;
+
+            fotosHtml += `<div class="d_cima_direita"><img src="${candidatoAtual.fotos[i].url}" alt="${candidatoAtual.fotos[i].legenda}"><p class="stilo--foto">${candidatoAtual.fotos[i].legenda}</p></div>`;
+
         }
           lateralFoto.innerHTML = fotosHtml;
      }else{
