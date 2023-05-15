@@ -1,7 +1,3 @@
-/*no ETAPAS ARRAW
-    ESTA TUDO NO 
-    PLURAL [ NUMEROS, ETAPAS]
-    */
 
 let seuVotoPara = document.querySelector('.d_cima_esquerda_1 span');
 let cargo = document.querySelector('.d_cima_esquerda_2 span'); //COLOCAR O PONTO PARA TRAZER UMA CLASS
