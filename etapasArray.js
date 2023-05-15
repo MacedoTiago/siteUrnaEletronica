@@ -7,7 +7,7 @@ let etapas = [
             nome: 'Fulano de Tal',
             partido: 'AAA',
             fotos:[
-                {url:'1cd6c8a6d36a13ba697fbc23df701150.jpg', legenda:'Vereador',}
+                {url:'./1cd6c8a6d36a13ba697fbc23df701150.jpg', legenda:'Vereador',}
             ]
         },
         {
@@ -15,7 +15,7 @@ let etapas = [
             nome: 'Fulano de Tal',
             partido: 'AAA',
             fotos:[
-                {url:'download (1).jpg', legenda:'Vereador',}
+                {url:'./download (1).jpg', legenda:'Vereador',}
             ]
         },
             
@@ -30,8 +30,8 @@ let etapas = [
             partido: 'BBB',
             vice:'Chic Chic',
             fotos:[
-                {url:'download.png', legenda:'Prefeito',small: true},
-                {url:'download.jpg', legenda:'Vice-Prefeito',small: true},
+                {url:'./download.png', legenda:'Prefeito',small: true},
+                {url:'./download.jpg', legenda:'Vice-Prefeito',small: true},
             ]
         },
         {
@@ -40,8 +40,8 @@ let etapas = [
             partido: 'QQQ',
             vice:'Mistureba',
             fotos:[
-                {url:'download (1).jpg', legenda:'Prefeito', small: true},
-                {url:'download.jpg', legenda:'Vice-Prefeito'},
+                {url:'./download (1).jpg', legenda:'Prefeito', small: true},
+                {url:'./download.jpg', legenda:'Vice-Prefeito'},
             ]
         },
             
